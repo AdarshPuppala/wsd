@@ -1,0 +1,24 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa; /* Light gray background color */
+    background-image: url('http://wonderfulengineering.com/wp-content/uploads/2014/04/code-wallpaper-4.png'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+    display: flex;
+    justify-content: space-around; /* Adjust spacing between containers */
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container, .container1, .container2 {
+    width: 200px;
+    height: 200px;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    overflow-y: auto;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    text-align: center;
+}
